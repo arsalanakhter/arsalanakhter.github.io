@@ -23,7 +23,7 @@ Following video shows an instance of the software, with detailed installation in
 <h3>Quick Setup</h3>
 
 
-We'll jump right into getting it up and running. Assuming we have [anaconda installed](https://conda.io/projects/conda/en/latest/user-guide/install/index.html), (which is an environemnt manager for python), we can run the follwong commands to get it up and running.
+We'll jump right into getting it up and running. Assuming we have [anaconda installed](https://conda.io/projects/conda/en/latest/user-guide/install/index.html), (which is an environment manager for python), we can run the following commands to get it up and running.
 
 ```bash
 $ conda create -n asprilo-env python=3.6
