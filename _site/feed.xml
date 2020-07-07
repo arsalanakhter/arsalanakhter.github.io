@@ -5,9 +5,51 @@
     <description>Robotics | Operations Research | PhD Student | WPI</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 19 May 2020 04:30:27 -0400</pubDate>
-    <lastBuildDate>Tue, 19 May 2020 04:30:27 -0400</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2020 14:59:42 -0400</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2020 14:59:42 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Using Supervised Learning to solve Mixed Integer Optimization Problems</title>
+        <description>&lt;p&gt;Our goal in this post is to build a neural network based classifier that could solve Mixed Integer programs MIP close to optimality but much faster than a MIP solver (e.g. Gurobi or MOSEK).&lt;/p&gt;
+
+&lt;p&gt;To do that, we will first generate labeled data for an optimal control problem. The data will consist of parameter values and their optimal solutions. This data will then be used to train a calssifier that could take parameter values as an input and give an optimal solution as the output.&lt;/p&gt;
+
+&lt;p&gt;We’ll be re-implementing the paper &lt;strong&gt;Learning Mixed-Integer Convex Optimization Strategies for Robot Planning and Control&lt;/strong&gt; by &lt;em&gt;Abhishek Cauligi, Preston Culbertson, Bartolomeo Stellato, Dimitris Bertsimas, Mac Schwager, and Marco Pavone&lt;/em&gt;. Their implementation can be found at &lt;a href=&quot;https://github.com/StanfordASL/mlopt-micp&quot;&gt;https://github.com/StanfordASL/mlopt-micp&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Cartpole Problem&lt;/h3&gt;
+
+&lt;p&gt;The cartpole problem is taken from the paper &lt;strong&gt;Warm Start of Mixed-Integer Programs for Model Predictive Control of Hybrid Systems &lt;/strong&gt;by &lt;em&gt;Tobia Marcucci and Russ Tedrake&lt;/em&gt;. Consider the following cartpole system.&lt;/p&gt;
+
+&lt;div style=&quot;text-align:center&quot;&gt;&lt;img src=&quot;/images/micp/cartpole.jpg&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;with following parameters:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;\(x^t \in \mathbb{R}^4\) : State of the cartpole. This includes position of cart \(x^t_1\), angle of pole \(x^t_2\), and their derivatives \(x^t_3\) and \(x^t_4\)&lt;/li&gt;
+  &lt;li&gt;\(u^t \in \mathbb{R}\) : Force applied to the cart.&lt;/li&gt;
+  &lt;li&gt;\(s^t \in \mathbb{R}^2\) : Contact forces imparted by the two walls.&lt;/li&gt;
+  &lt;li&gt;\(\lambda^t \in \mathbb{R}^2\) : Relative distance of the tip of the pole w.r.t to the walls.&lt;/li&gt;
+  &lt;li&gt;\(\gamma^t \in \mathbb{R}^2\) : Relative distance of the tip of the pole w.r.t to the walls.&lt;/li&gt;
+  &lt;li&gt;\(\kappa, \nu\) : Parametrs of the soft contact model with the wall.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 30 Jun 2020 11:16:00 -0400</pubDate>
+        <link>http://localhost:4000/2020/MICP-Learning/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/MICP-Learning/</guid>
+        
+        <category>Optimization</category>
+        
+        <category>Machine Learning</category>
+        
+        <category>Cartpole</category>
+        
+        <category>MILP</category>
+        
+        
+        <category>Optimization and ML</category>
+        
+      </item>
     
       <item>
         <title>Exploring Asprilo</title>
