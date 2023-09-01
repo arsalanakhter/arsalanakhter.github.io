@@ -1,54 +1,44 @@
-# jekyll-uno
+# vCard - Personal portfolio
 
-Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
+![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
+![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
+![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
+[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
+[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
 
-> :warning:
-  This theme requires ruby and rubygems installed
+vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
 
-### Features
+## Demo
 
-* Clean layout
-* Resposive layout
-* Pagination
-* Syntax highlighting
-* Social links
-* Tags listing page
-* Categories listing page
-* Google Analytics integration
-* Disqus integration
+![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
+![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
 
----
+## Prerequisites
 
-### Install and Test
+Before you begin, ensure you have met the following requirements:
 
-1. Download or clone repo `git clone git@github.com:joshgerdes/jekyll-uno.git`
-2. Enter the folder: `cd jekyll-uno/`
-3. If you don't have bundler installed: `gem install bundler`
-3. Install Ruby gems: `bundle install`
-4. Start Jekyll server: `bundle exec jekyll serve --watch`
+* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
-Access via: [http://localhost:4000/jekyll-uno/](http://localhost:4000/jekyll-uno/)
+## Installing vCard
 
-If you would like to run without using the `github-pages` gem, update your Gemfile to the following:
+To install **vCard**, follow these steps:
 
+Linux and macOS:
+
+```bash
+sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
 ```
-source 'https://rubygems.org'
-gem 'jekyll-paginate'
-gem 'jekyll-watch'
-gem 'kramdown'
-gem 'kramdown-parser-gfm'
+
+Windows:
+
+```bash
+git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
 ```
----
 
-### Demo and Download
+## Contact
 
-[Demo](http://joshgerdes.com/jekyll-uno/)
-[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
+If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
 
-![jekyll-uno - free Jekyll theme](/screenshot.png)
+## License
 
----
-
-### Copyright and license
-
-It is under [the MIT license](/LICENSE).
+MIT
